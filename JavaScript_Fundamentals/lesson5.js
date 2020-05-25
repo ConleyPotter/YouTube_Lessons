@@ -6,8 +6,8 @@ const finder = (string, word_to_find) => {
   console.log(string.indexOf(word_to_find));
 };
 
-finder(comment_3, "another");
-console.log(comment_3.indexOf("another"));
+finder(comment_3, "another");  
+console.log(comment_3.indexOf("comment"));
 
 // On line 62 I setup another comment constant variable called comment-3 to hold
 // a new string, which is a comment. Then I set up a function called finder which
@@ -32,7 +32,7 @@ let comment_6 = "Hey nice video.";
 // them, so now we're going to compare where the occurence of the word
 // 'one' takes place in these comments, or if the word occurs at all.
 
-const finder_IS_ONE_INE_WORD = (comment) => {
+const finder_IS_ONE_IN_WORD = (comment) => {
   if (comment.includes("one")) {
     console.log(comment.indexOf("one"));
   } else {
@@ -40,9 +40,9 @@ const finder_IS_ONE_INE_WORD = (comment) => {
   }
 };
 
-finder_IS_ONE_INE_WORD(comment_4); // -> 7
-finder_IS_ONE_INE_WORD(comment_5); // -> 26
-finder_IS_ONE_INE_WORD(comment_6); // -> That comment does not contain the word 'one'.
+finder_IS_ONE_IN_WORD(comment_4); // -> 7
+finder_IS_ONE_IN_WORD(comment_5); // -> 26
+finder_IS_ONE_IN_WORD(comment_6); // -> That comment does not contain the word 'one'.
 
 // Part 05: Expanding with a new String Operation
 

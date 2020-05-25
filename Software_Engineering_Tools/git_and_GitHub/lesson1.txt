@@ -1,0 +1,50 @@
+If you're reading this lesson, you are probably already familiar with GitHub.
+However, for those who aren't and have found their way to this file by watching one
+Pro Squad's YouTube videos, welcome to GitHub!
+
+If you'd like to watch a video of the GitHub team explaining what exactly they think
+GitHub is and how it should be used, here is a link to that video:
+https://www.youtube.com/watch?v=w3jLJU7DT5E
+
+I've used GitHub for years, and with all my experience with git and GitHub, I will
+explain in my own words what I think they are.
+
+To start with, it's important to understand that writing software is usually a very
+collaborative experience. When code is first being written on the screen, often
+this is done while pair-programming, something I can show off in a future video. After
+that, code will most likely go through a code review, if it is written in a company,
+it will definitely go through a code review. So how are these code reviews done?
+We obviously don't just pass off the laptop to the code reviewer. No, we use git, and usually,
+GitHub.
+
+Git is what's called a version control system, a fancy programming term which basically means that
+when you use git correctly, you can use it to keep track of changes with your code. At first
+glance, this may seem arbitrary. But imagine you have a persistent bug in your code. You've spent
+hours doing what you think "fixed" the bug. However, after spending those hours, you realize your were
+closer to the solution when you started than now. That's perfectly fine, in fact, this happens often
+in programming. So now you want to roll back all those various changes you made to the code accross
+an entire file structure. That is not a simple ordeal, except with git it is. 
+
+So let's jump into the fundamnetal commands in git. First we can go over how you can set up 
+git on your computer. If you are using a windows computer, this part of the video is not for you.
+You can go look up how to download git onto your computer. But I'm a mac user, so I'll be reviewing
+how to get git on your mac computer. If you are using linux, let's be honest, you probably already 
+know how to get it onto your computer, so you can skip this section too. 
+
+One option, the easist way, is to install git with Homebrew. Homebrew simplifies the installation
+of software on Mac OS X. If you'd like to learn more about how that is made possible of what
+exactly Homebrew does, check out this wikipedia article:
+
+https://en.wikipedia.org/wiki/Homebrew_(package_manager)
+
+Copy and paste this command into your terminal, either Apple's terminal program or an intergrated
+terminal your IDE of choice, such as VS Code, my preferred IDE.
+
+>> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" brew doctor
+
+You will be offered to install the Command Line Developer Tools from Apple. Confirm by clicking Install. 
+After the installation finished, continue installing Homebrew by hitting Return again.
+
+After homebrew is installed allw you have to do is enter the following command:
+
+>> brew install git
