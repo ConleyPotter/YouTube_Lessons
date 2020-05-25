@@ -2,22 +2,22 @@
 
 // part 01:
 
-// const x = 3 + 4;
-// const y = 4 / 2;
-// const z = 5 * 5;
-// const a = 3 - 2;
+const x = 3 + 4;
+const y = 4 / 2;
+const z = 5 * 5;
+const a = 3 - 2;
 
-// console.log(x); // => 7
-// console.log(y); // => 2
-// console.log(z); // => 25
-// console.log(a); // => 1
+console.log(x); // => 7
+console.log(y); // => 2
+console.log(z); // => 25
+console.log(a); // => 1
 
 // // part 02:
 
-// const b = 3 + 4;
-// const c = 4 / 2;
-// const d = 3 - 2;
-// const e = 5 * 5;
+const b = 3 + 4;
+const c = 4 / 2;
+const d = 3 - 2;
+const e = 5 * 5;
 
 // const sum = b + c;
 // const dividend = z / a;
