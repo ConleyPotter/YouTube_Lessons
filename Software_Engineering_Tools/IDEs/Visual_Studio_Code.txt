@@ -1,0 +1,82 @@
+We're going to be going over a couple of different tools in these upcoming lessons.
+One of the most powerful tools at a Software Engineer's toolbelt is the
+Integrated Development Environment, or IDE. An IDE is where you organize, write, 
+and run your code. It is what you've seen me recording in every video up until now that
+I've released. 
+
+The IDE that I've been using up until now in every video is called Visual Studio Code,
+more commonly referred to as VS Code. It is a product released by Microsoft, and it's free.
+For those reasons alone right there I think you should download it. Microsoft is in no way
+paying me to say that. I'm sure you could probably gather that though from the fact
+that I have 5 subscribers on my YouTube account as of writing this lecture. 
+
+Visual Studio Code is great. It has many people around the world using it, and you will
+see why that is more important in the future. Because as you are looking up error codes that 
+may be specific to your IDE or you are wanting to download a theme for your IDE that makes
+the colors look different, or the file icons look different, you will find many people
+posting on many different websites about these things. You can then go Google what it is
+you're wondering about your specific IDE. In our case, for Visual Studio Code, lots of useful
+information will pop up right away.
+
+So let's get to downloading Visual Studio Code. Go to this link:
+
+https://code.visualstudio.com/download
+
+And you will find the links to download VS Code for any operating system you may be using. 
+So fear not, my windows users, you too can have Visual Studio Code on your computer.
+
+After downloading your version of VS Code, you can go through the installation process, and I'll
+meet you in VS Code for a tour. 
+
+After you download VS Code, I'm going to tell you to do something rather controversial, but in 
+my opinion, necessary. You need to change your color theme from the default to something that doesn't
+cause the eyes excrutiating pain. This will actually give us a pretty good tour while we do so. 
+
+First go to extensions tab on the top left vertical toolbar, and you will be shown another vertical
+bar with extensions populated. You can look through some of these other extensions at your leisure,
+there are thousands of them. 
+
+For now, let's just search for the Noctis themes. This is a pack of some of my favorite themese for VS Code.
+Clicking on Noctis will show you the details about the extension package on your editor screen. I would
+highly suggest pressing install. 
+
+After installing, go to the gear icon to open up a settings panel, and navigate to where it says
+"Color Theme". There you can choose from a drop down all of the color themes you just installed.
+My personal favorite is just called Noctis.
+
+Now, it's time to open up a new project and start creating and writing code in VS Code. 
+
+From the editor panel, choose "Add Workspace Folder..." and choose where you want to create your First
+VS Code workspace. You could, like I do, have a folder on your desktop called "Development" where you
+keep all of your code from now on. Programmers like to be organized, so that'd be a good spot, in my mind
+to create a new folder that will hold this workspace inside that Development folder on your Desktop.
+
+Once you have your workspace folder picked out, go ahead and click on the workspace icon in the navigation
+panel of VS Code, and press the later "a" on your keyboard. This will create a new file in your workspace,
+after your give it a name and press enter.
+
+Now you can start writing your first JavaScript code inside of the code editor! Or you could write Python
+code or Java code (a completely different language than JavaScript) or really any other kind of code. 
+
+If you wanted to run your code eventually, like you've seen me doing in my terminal panel of VS Code, you could
+right click on the workspace icon in the navigation panel of VS Code, and hit open in terminal. 
+
+This will open up a brand new terminal for you to use that is exactly like your computers default terminal
+program. On Mac OS, it will use what's called bash. I will go over in another lesson soon how to use the
+terminal in more depth. Suffice it to know for now that the terminal is a very powerful piece of VS Code's
+and your computer's operations when programming. 
+
+Inside the navigation bar on the left, you can create new files, create new folders, and run the terminal
+FROM a specific place in your file structure wihtin the open workspaces you currently have on your
+navigation panel. 
+
+You can also have multiple tabs open with different files all with different code in them. 
+
+You can also arrange multiple windows of code in your code editor panel of VS Code by dragging the tabs
+next to each other on the code editor panel. That way you can reference other pieces of code or information
+while writing code that is broken out into multiple files. 
+
+VS Code has many operations you can perform to personalize your workspace. And they will be remembered by
+VS Code. These personalization settings are saved with the workspace. Mess around with VS Code. Maybe
+code some of the JavaScript lessons from my earlier videos in VS Code yourself, getting a hang of how to use it,
+how to navigate between files, and all that jazz. This will be your program of choice moving forward.
