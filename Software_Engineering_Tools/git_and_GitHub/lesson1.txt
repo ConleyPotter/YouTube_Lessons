@@ -68,3 +68,54 @@ your different folders in that Development folder.
 Once you've chosen which will be best for you, go ahead and enter the command:
 
 $ git init
+
+This will set up an empty skeleton git repository in your file structure you've chosen to do so in.
+Now, after setting up your inital git repo, I want you to do something that won't make a ton of sense at
+first, but will help save you a lot of headache. Go ahead and create a file in the root of the directory
+called ".gitignore". This file is going to tell git what NOT to put into the git repository you just
+created. This would include files that hold keys, passwords, or any other sensitive information you
+don't want anyone and everyone on the web to be able to find. If you have any files with keys or 
+passwords in them, write the name of the file with the extension on its own line in that file.
+
+After creating your .gitignore file, let's get to learning how to use git more comprehensively. so
+the first command you'll learn to use after init will be to add files to what's sometimes referred
+to as a staging area. Adding files is basically one step before committing to your changes and in effect
+saving them to the git repo. Enter the following on the command line:
+
+$ git add .
+
+That period after add will tell git to add all of the files and files within subfolders in your
+current directory. So make sure you're at the root of your directory that you'd like to add to github 
+before entering this command.
+
+Now you've decided that you are happy with what you've added to the staging area, so it's time to commit
+your changes. Go ahead and enter the following command:
+
+$ git commit -m "First commit"
+
+You'll see that I used what's called a flag after the commit command, that is the message flag. It tells
+git that the message in quatation marks will be the message associated with this commit. It will show on
+GitHub, so I'd suggest just saying "First commit".
+
+Congratulations! You've entered your first commit. But where are these changes being saved and where can you
+look at them? Well that's a more complicated question than you think, but to answer it simply, we'd want
+to upload this commit to GitHub to see it. So let's go back to GitHub in your browser. 
+
+You'll want to create a remote repository. That's the repository on GitHub where your file structure on your
+computer will live remotely. So go about creating a new Repo on GitHub and meet me back here. 
+
+Once you've created this repo, you will take the link that they give you for pushing with HTTPS and enter it 
+in with the following command on your terminal:
+
+$ git remote add origin "the link goes here"
+
+Replacing what's in the quatation marks with your link. Your link should be surrounded by quotes though.
+Now git knows that for this repository, you want to push your code to that remote repository. So we'll
+enter the following command:
+
+$ git push origin master
+
+You'll see it taking a little while, but before long, you can press refresh on your GitHub repo page and you
+should see all of the files that you didn't ignore in your gitignore file! Congrats! You just pushed your
+first code to GitHub. Other developers can now read your code and interact with it, even download it to their
+computers. We'll go into all of this in more depth later on. 
