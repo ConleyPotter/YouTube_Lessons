@@ -40,11 +40,31 @@ https://en.wikipedia.org/wiki/Homebrew_(package_manager)
 Copy and paste this command into your terminal, either Apple's terminal program or an intergrated
 terminal your IDE of choice, such as VS Code, my preferred IDE.
 
->> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" brew doctor
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" brew doctor
 
 You will be offered to install the Command Line Developer Tools from Apple. Confirm by clicking Install. 
 After the installation finished, continue installing Homebrew by hitting Return again.
 
-After homebrew is installed allw you have to do is enter the following command:
+After homebrew is installed all you have to do is enter the following command:
 
->> brew install git
+$ brew install git
+
+Now that git has been installed on your computer, let's go ahead and create a GitHub account. Follow this linK:
+https://github.com
+And create an account. Make sure your password is secure! After creating your account, let's log into your
+account on the terminal, telling git that you have a github account. To do so, enter the following on the terminal:
+
+$ git config --global user.name "Your name here"
+$ git config --global user.email "your email here"
+
+Now you've told git what GitHub account you're using.
+
+Now you have git installed on your computer, have registered for a GitHub account, and have signed in on your computer.
+Great. Let's get to using it. Pick out the file structure you want to start your first git repository in. I would suggest, 
+if you've watched my last video, you choose a subfolder within your Development folder on your desktop. 
+Don't choose the outer Development file because you'll want to have separate repositories on GitHub of all of 
+your different folders in that Development folder. 
+
+Once you've chosen which will be best for you, go ahead and enter the command:
+
+$ git init
